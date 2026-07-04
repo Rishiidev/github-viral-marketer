@@ -1,0 +1,10 @@
+{
+  "name": "github-viral-marketer",
+  "description": "Automate GitHub trending and distribution in 1 command.",
+  "version": "1.0.0",
+  "author": { "name": "Rishiidev" },
+  "homepage": "https://github.com/Rishiidev/github-viral-marketer",
+  "repository": "https://github.com/Rishiidev/github-viral-marketer",
+  "license": "MIT",
+  "skills": "./skills"
+}

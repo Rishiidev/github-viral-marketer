@@ -1,0 +1,19 @@
+{
+  "name": "github-viral-marketer",
+  "owner": {
+    "name": "Rishiidev",
+    "url": "https://github.com/Rishiidev"
+  },
+  "metadata": {
+    "description": "Automate GitHub trending and distribution in 1 command.",
+    "version": "1.0.0",
+    "repository": "https://github.com/Rishiidev/github-viral-marketer"
+  },
+  "plugins": [
+    {
+      "name": "github-viral-marketer",
+      "description": "Full marketing, star boosting, and distribution pipeline for open-source developer tools, MCP servers, and agent skills. Automates Awesome-List PRs, drafts high-converting Show HN / Reddit content, and designs Twitter/X build-in-public campaigns. Trigger when user asks to: market this repo, get more stars, make it viral, github trending.",
+      "source": "./"
+    }
+  ]
+}

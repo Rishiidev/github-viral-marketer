@@ -1,0 +1,13 @@
+name: Validate
+on: [push, pull_request]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check SKILL.md exists
+        run: test -f skills/*/SKILL.md && echo "✓ SKILL.md found"
+      - name: Check plugin.json exists
+        run: test -f .claude-plugin/plugin.json && echo "✓ plugin.json found"
+      - name: Check SKILL.md has frontmatter
+        run: head -1 skills/*/SKILL.md | grep -q "^---" && echo "✓ frontmatter present"

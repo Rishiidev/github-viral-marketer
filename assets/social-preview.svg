@@ -1,0 +1,30 @@
+<svg width="1280" height="640" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#0d1117"/>
+  <!-- Subtle grid -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#161b22" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="640" fill="url(#grid)"/>
+  <!-- Accent bar -->
+  <rect x="0" y="0" width="6" height="640" fill="#f0883e"/>
+  <!-- Project name -->
+  <text x="60" y="200" font-family="system-ui, sans-serif" font-size="80"
+        font-weight="800" fill="#ffffff">github-viral-marketer</text>
+  <!-- Value prop -->
+  <text x="60" y="275" font-family="system-ui, sans-serif" font-size="32"
+        fill="#8b949e">Automate GitHub trending and distribution in 1 command.</text>
+  <!-- Code block background -->
+  <rect x="60" y="340" width="1160" height="80" rx="8" fill="#161b22"/>
+  <!-- Install command -->
+  <text x="90" y="390" font-family="'Courier New', monospace" font-size="28"
+        fill="#f0883e">$ ln -sf $(pwd) ~/.claude/skills/github-viral-marketer</text>
+  <!-- Username -->
+  <text x="1220" y="610" font-family="system-ui, sans-serif" font-size="22"
+        fill="#484f58" text-anchor="end">github.com/Rishiidev</text>
+  <!-- Badges: platform pills -->
+  <rect x="60" y="460" width="160" height="40" rx="20" fill="#161b22"/>
+  <text x="140" y="486" font-family="system-ui, sans-serif" font-size="18"
+        fill="#8b949e" text-anchor="middle">Claude Code</text>
+</svg>
